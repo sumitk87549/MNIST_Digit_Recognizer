@@ -41,3 +41,14 @@ if btn:
     print(predicted_digit)
     st.subheader(f"It looks like: ")
     st.header(predicted_digit)
+    
+    
+footer_html = """
+<div style='text-align: center;'>
+  <p>Developed with ❤️ using Streamlit</p>
+  <p>By Sumit Kumar</p>
+</div>
+"""
+
+st.markdown(footer_html, unsafe_allow_html=True)
+
