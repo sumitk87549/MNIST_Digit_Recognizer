@@ -3,7 +3,7 @@ from streamlit_drawable_canvas import st_canvas
 from PIL import Image
 import numpy as np
 
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 model = load_model('Conv_model_1.keras')
 
 st.title("Welcome to Handwritten Digit Recognizer")
