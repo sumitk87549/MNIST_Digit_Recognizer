@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 from keras.models import load_model
-model = load_model('Conv_model_1.keras')
+model = load_model('Conv_model_1.keras', compile=False)
 
 st.title("Welcome to Handwritten Digit Recognizer")
 
